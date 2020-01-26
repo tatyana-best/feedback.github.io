@@ -1,0 +1,151 @@
+.header{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	
+}
+
+.footer-container{
+	display:flex;
+	justify-content:flex-start;
+	align-items: center;
+	padding-left:8%;
+	padding-right:8%;
+	background: #F0FFFF;
+}
+
+.footer{
+	width:100%;
+}
+
+.main{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	margin-left:8%;
+	margin-right:8%;
+	
+}
+
+
+
+.item4{
+	width:100% !important;
+	text-align:center;
+}
+
+.header > div, .main > div{
+	width:30%;
+}
+
+.item1{
+	text-align:left;
+}
+
+.item2{
+	text-align:center;
+}
+
+.item3{
+	text-align:right;
+
+}
+
+
+.main{
+	margin-bottom:20px;
+}
+
+.main_p{
+	margin-left:8%;
+	margin-right:8%;
+}
+
+.main_p>p{
+	text-align:justify;
+	font-family: Bookman Old Style;
+}
+
+h2, h3 {
+	color:maroon;
+}
+
+img{
+	width:30px;
+}
+
+.logo > img{
+	width:200px;
+}
+
+.welcome{
+	color:green;
+	font-family: Monotype Corsiva;
+	font-size: 28px;
+}
+
+label {
+	font-family: Bookman Old Style;
+	color:green;
+}
+
+.form{
+	text-align:center;
+	margin-top:15px;
+}
+
+.form > div{
+	width: 100%;
+}
+
+button, .button{
+	background: green;
+	color:white;
+	font-family: Bookman Old Style;
+	font-style: italic;
+	border:none;
+	padding:15px;
+	font-size:16px;
+	cursor:pointer;
+}
+
+.button{
+	text-decoration: none;
+}
+
+input, textarea{
+	background: #F0FFFF;
+	padding:15px;
+    width:500px;
+    border:none;
+}
+
+textarea{
+	height: 100px;
+}
+
+body{
+	margin:0;
+}
+
+.header-container{	
+	
+    z-index:0;
+    width:100%;
+
+}
+
+.header{
+	position: fixed;
+    z-index: 9999;
+    background: #F0FFFF;
+    width:84%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:8%;
+    padding-right:8%;
+}
+
+.main-container{
+	padding-top:100px;
+}
