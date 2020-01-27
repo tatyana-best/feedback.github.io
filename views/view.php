@@ -1,4 +1,4 @@
-<?php include '/header.php';?>
+<?php include 'header.php';?>
 <div class="main-container">
 	<div class="main form">
 		<div>
@@ -17,4 +17,4 @@
 	</div>
 <div class="main"><div class="item4"><?php  echo $text;?></div></div>
 </div>
-<?php include '/footer.php';?>
+<?php include 'footer.php';
