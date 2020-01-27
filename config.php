@@ -4,4 +4,3 @@
 	define('PASS','');
 	define('DB','feed_back');
 	define('CODE','utf8');
-?>
