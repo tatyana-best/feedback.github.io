@@ -39,7 +39,6 @@
 
 			if (!$res){
 				return FALSE;
-				//echo "000";
 			}
 
 			$row = mysqli_fetch_assoc($res);
@@ -78,4 +77,3 @@
 		}
 
 	}
-?>
