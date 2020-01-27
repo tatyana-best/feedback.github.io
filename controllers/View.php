@@ -27,4 +27,3 @@
 			return $this->render('view', array('title' => 'Авторизация', 'text' => $text));				
 		}
 	}
-?>
