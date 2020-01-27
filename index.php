@@ -1,6 +1,5 @@
 <?php
     include_once 'config.php';
-   // header("Content-Type:text/html;charset='cp-1251'");
 
     function __autoload($file){
     	if(file_exists('controllers/'.$file.'.php')){
@@ -28,4 +27,3 @@
     }
 
     echo $init->get_body();
-?>
