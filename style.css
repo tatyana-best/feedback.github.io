@@ -74,7 +74,7 @@ img{
 	width:30px;
 }
 
-.logo > img{
+.logo > a> img{
 	width:200px;
 }
 
@@ -116,7 +116,7 @@ button, .button{
 input, textarea{
 	background: #F0FFFF;
 	padding:15px;
-    width:500px;
+    width:50%;
     border:none;
 }
 
@@ -148,4 +148,13 @@ body{
 
 .main-container{
 	padding-top:100px;
+}
+
+@media(max-width:750px){
+.welcome.item2{
+    display:none !important;
+}
+input, textarea{
+    width:100% !important;
+}
 }
