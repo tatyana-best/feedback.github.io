@@ -1,4 +1,4 @@
-<?php include '/header.php';?>
+<?php include 'header.php';?>
 	<div class="main-container">
 		<?php if (!isset($_SESSION['id_a'])):?>
 		<div class="main form">
